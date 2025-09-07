@@ -321,7 +321,7 @@ body {
       @apply flex max-md:flex-col gap-10 md:items-center justify-between w-full lg:absolute bottom-0;
 
       .info {
-        @apply space-y-4 lg:translate-y-20;
+        @apply space-y-4 lg:translate-y-[-2rem] ms-[3rem];
 
         #title {
           @apply font-modern-negra md:text-6xl text-3xl text-yellow max-w-40;
@@ -329,7 +329,7 @@ body {
       }
 
       .details {
-        @apply space-y-5 md:max-w-md text-left;
+        @apply space-y-5 md:max-w-md md:me-[3rem] text-left;
 
         h2 {
           @apply md:text-5xl text-3xl font-serif;
